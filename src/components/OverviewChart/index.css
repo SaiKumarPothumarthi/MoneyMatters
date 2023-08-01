@@ -1,0 +1,20 @@
+.overviewChart {
+    background-color: #fff;
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    padding: 1rem;
+    color: #718ebf;
+  }
+  
+  .overviewChart-para {
+    margin: 0 2rem;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  .overviewChart-span {
+    color: #333b69;
+    padding-left: 8px;
+    padding-right: 8px;
+  }

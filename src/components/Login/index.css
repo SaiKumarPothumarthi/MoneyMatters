@@ -1,0 +1,98 @@
+
+
+.loginContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://res.cloudinary.com/dadmzulfj/image/upload/v1690821719/DistantPortlyGrunion-size_restricted_ugoshl.gif");
+  background-size: cover;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: rgba(235, 228, 228, 0.589);
+  height: 60%;
+  width: 25%;
+}
+
+@media screen and (max-width:768px){
+  .card{
+    width: 90%;
+  }
+}
+
+.login-logo-img{
+  width: 70%;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.label{
+  font-family: "sans-serif";
+  font-weight: 500;
+  color: rgb(53, 49, 49);
+  font-size: 14px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  align-self: flex-start;
+  padding-left: 5px;
+}
+
+.login-icon{
+  font-size: 15px;
+  margin-right: 8px;
+}
+.input-cell{
+  height: 35px;
+  width: 100px;
+  border: none;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid grey;
+  outline: none;
+  font-weight: 500;
+  color: rgb(66, 62, 62);
+  font-family: "sans-serif";
+  font-size: 14px;
+  padding-left: 8px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.login-btn {
+  background-color: #2D60FF;
+  border: none;
+  width: 80%;
+  font-size: 14px;
+  font-family: sans-serif;
+  border-radius: 10px;
+  font-weight: 700;
+  color: #ffffff;
+  width: 100%;
+  height: 35px;
+  outline: none;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.error {
+  color: #dc2626;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+:root {
+  --primary-color: #f89a23;
+  --accent-color: #02969c;
+  --primary-color-300: #feedd6;
+  --gradient-1: #eef2f3;
+  --gradient-2: #8e9eab;
+  --light-color: #eeeded;
+}
