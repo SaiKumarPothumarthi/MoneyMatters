@@ -18,3 +18,27 @@
     padding-left: 8px;
     padding-right: 8px;
   }
+
+  /* For Small Devices (e.g., Mobile Phones) */
+@media screen and (max-width: 576px) {
+  .overviewChart {
+    padding: 0.8rem;
+  }
+
+  .overviewChart-para {
+    margin: 0 1rem;
+    font-size: 12px;
+  }
+}
+
+/* For Medium Devices (e.g., Tablets) */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .overviewChart {
+    padding: 1rem;
+  }
+
+  .overviewChart-para {
+    margin: 0 2rem;
+    font-size: 14px;
+  }
+}

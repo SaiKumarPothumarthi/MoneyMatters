@@ -17,3 +17,19 @@
   .button:active {
     transform: scale(0.98);
   }
+
+  /* For Small Devices (e.g., Mobile Phones) */
+@media screen and (max-width: 576px) {
+  .button {
+    font-size: 12px;
+    padding: 0.4rem 0.8rem;
+  }
+}
+
+/* For Medium Devices (e.g., Tablets) */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .button {
+    font-size: 13px;
+    padding: 0.4rem 0.8rem;
+  }
+}

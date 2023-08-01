@@ -89,10 +89,11 @@
 
 .error {
   color: #dc2626;
-  font-size: 14px;
+  font-size: 12px;
   font-family: sans-serif;
   align-self: flex-start;
   padding-top: 10px;
+  font-weight: 600;
 }
 
 .err{
@@ -110,4 +111,68 @@
   --gradient-1: #eef2f3;
   --gradient-2: #8e9eab;
   --light-color: #eeeded;
+}
+
+/* For Small Devices (e.g., Mobile Phones) */
+@media screen and (max-width: 576px) {
+  .loginContainer {
+    background-size: contain;
+  }
+
+  .card {
+    height: 70%;
+    width: 90%;
+  }
+
+  .login-logo-img {
+    width: 90%;
+  }
+
+  .input-cell {
+    height: 30px;
+    font-size: 12px;
+  }
+
+  .login-btn {
+    width: 100%;
+    font-size: 12px;
+    height: 30px;
+  }
+
+  .error,
+  .err {
+    font-size: 12px;
+  }
+}
+
+/* For Medium Devices (e.g., Tablets) */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .loginContainer {
+    background-size: contain;
+  }
+
+  .card {
+    height: 65%;
+    width: 40%;
+  }
+
+  .login-logo-img {
+    width: 80%;
+  }
+
+  .input-cell {
+    height: 30px;
+    font-size: 12px;
+  }
+
+  .login-btn {
+    width: 100%;
+    font-size: 14px;
+    height: 35px;
+  }
+
+  .error,
+  .err {
+    font-size: 12px;
+  }
 }

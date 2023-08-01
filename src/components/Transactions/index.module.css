@@ -18,7 +18,8 @@
   
   .header {
     color: #343c6a;
-    font-size: 24px;
+    font-size: 20px;
+    font-family: sans-serif;
     padding: 1rem 2rem 0;
     border-bottom: 1px solid #eaecf0;
     background-color: #fff;
@@ -28,6 +29,8 @@
     display: flex;
     justify-content: space-between;
   }
+
+  
   
   .header ul button {
     border: none;
@@ -57,4 +60,39 @@
   .summaryCardsContainer {
     display: flex;
     gap: 1rem;
+  }
+
+  
+
+  /* For Small Devices (e.g., Mobile Phones) */
+  @media screen and (max-width: 576px) {
+    .header {
+      font-size: 14px;
+      padding: 0.75rem 1.5rem 0;
+    }
+
+    .header ul button {
+      font-size: 14px;
+    }
+
+    .content {
+      padding: 0.5rem 1rem;
+    }
+  }
+
+  /* For Medium Devices (e.g., Tablets) */
+  @media screen and (min-width: 577px) and (max-width: 992px) {
+    .header {
+      font-size: 16px;
+      padding: 0.8rem 1.75rem 0;
+    }
+
+    .header ul button {
+      font-size: 15px;
+    }
+
+    .content {
+      padding: 1rem 2rem;
+    }
+    
   }

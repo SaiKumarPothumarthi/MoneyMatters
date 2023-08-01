@@ -1,6 +1,7 @@
 .page {
   display: flex;
   background-color: #f5f7fa;
+  height: 100vh;
 }
 
 .home {
@@ -38,4 +39,58 @@
 .summaryCardsContainer {
   display: flex;
   gap: 1rem;
+}
+
+.top-head{
+  font-size: 26px;
+}
+
+/* For Small Devices (e.g., Mobile Phones) */
+@media screen and (max-width: 576px) {
+  .content {
+    padding: 0.5rem;
+    height: calc(100vh - 60px);
+  }
+
+  .top-head{
+    font-size: 16px;
+  }
+
+  .content h3 {
+    font-size: 12px;
+  }
+
+  .summaryCardsContainer {
+    flex-direction: column;
+  }
+
+  .header {
+    font-size: 20px;
+    padding: 0.5rem;
+  }
+}
+
+/* For Medium Devices (e.g., Tablets) */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .content {
+    padding: 1rem;
+    height: calc(100vh - 70px);
+  }
+
+  .summaryCardsContainer {
+    flex-direction: column;
+  }
+
+  .content h3 {
+    font-size: 16px;
+  }
+
+  .top-head{
+    font-size: 20px;
+  }
+
+  .header {
+    font-size: 22px;
+    padding: 0.8rem;
+  }
 }

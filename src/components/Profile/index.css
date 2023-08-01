@@ -40,12 +40,13 @@
 
 .header {
   color: #343c6a;
-  font-size: 24px;
+  font-size: 20px;
   display: flex;
   padding: 1rem 2rem;
   justify-content: space-between;
   border-bottom: 1px solid #eaecf0;
   background-color: #fff;
+  font-family: sans-serif;
 }
 
 @keyframes slide-up {
@@ -57,5 +58,49 @@
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+/* For Small Devices (e.g., Mobile Phones) */
+@media screen and (max-width: 576px) {
+  .content {
+    margin: 0.5rem;
+    gap: 1rem;
+    padding: 1rem;
+    font-size: 14px;
+  }
+
+  .icon {
+    font-size: 4rem;
+  }
+
+  .profileDetails {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .header{
+    font-size: 14px;
+  }
+}
+
+/* For Medium Devices (e.g., Tablets) */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .content {
+    margin: 1rem;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    font-size: 16px;
+  }
+
+  .icon {
+    font-size: 5rem;
+  }
+
+  .profileDetails {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+  .header{
+    font-size: 16px;
   }
 }

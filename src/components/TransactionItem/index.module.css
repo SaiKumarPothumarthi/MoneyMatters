@@ -4,6 +4,7 @@
   color: #505887;
   font-weight: 400;
   text-align: center;
+  font-family: sans-serif;
 }
 
 .transactionItem:last-child td {
@@ -118,5 +119,65 @@
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+/* For Small Devices (e.g., Mobile Phones) */
+@media screen and (max-width: 576px) {
+  .transactionItem td {
+    padding: 0.3rem;
+    font-family: sans-serif;
+    font-size: 12px;
+  }
+
+  .transactionItem .creditIcon,
+  .transactionItem .debitIcon {
+    font-size: 15px;
+  }
+
+  .buttonsContainer .icon {
+    font-size: 1rem;
+  }
+
+  .modalCard {
+    padding: 1rem;
+  }
+
+  .modalCard h3 {
+    font-size: 18px;
+  }
+
+  .modalCard p {
+    font-size: 14px;
+  }
+}
+
+/* For Medium Devices (e.g., Tablets) */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .transactionItem td {
+    padding: 0.4rem;
+    font-family: sans-serif;
+    font-size: 14px;
+  }
+
+  .transactionItem .creditIcon,
+  .transactionItem .debitIcon {
+    font-size: 28px;
+  }
+
+  .buttonsContainer .icon {
+    font-size: 1.15rem;
+  }
+
+  .modalCard {
+    padding: 1.5rem;
+  }
+
+  .modalCard h3 {
+    font-size: 20px;
+  }
+
+  .modalCard p {
+    font-size: 16px;
   }
 }

@@ -40,3 +40,43 @@
   .debit {
     color: #fe5c73;
   }
+
+  /* For Small Devices (e.g., Mobile Phones) */
+@media screen and (max-width: 576px) {
+  .deleteTransactionBtn {
+    font-size: 18px;
+  }
+
+  .modal-heading {
+    font-size: 14px;
+  }
+
+  .modal-para {
+    font-size: 14px;
+  }
+
+  .delete-icon {
+    font-size: 15px;
+    margin: 0 0.5rem;
+  }
+}
+
+/* For Medium Devices (e.g., Tablets) */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .deleteTransactionBtn {
+    font-size: 20px;
+  }
+
+  .modal-heading {
+    font-size: 16px;
+  }
+
+  .modal-para {
+    font-size: 16px;
+  }
+
+  .delete-icon {
+    font-size: 15px;
+    margin: 0 1rem;
+  }
+}

@@ -164,7 +164,7 @@ const Home = () => {
 
       <div className="home">
         <div className="header">
-          <h3>Accounts</h3>
+          <h3 className="top-head">Accounts</h3>
           {!isAdmin && <AddTransactionBtn reload={fetchData} />}
           
         </div>

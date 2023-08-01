@@ -10,9 +10,10 @@
 .transactionsList th {
   border-bottom: 1px solid #e2e2e2;
   padding: 0.5rem;
-  font-weight: 500;
+  font-weight: 600;
   color: #343c6a;
   text-align: center;
+  font-family: sans-serif;
 }
 
 .transactionsList th:first-child {
@@ -28,5 +29,29 @@
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+/* For Small Devices (e.g., Mobile Phones) */
+@media screen and (max-width: 576px) {
+  .transactionsList {
+    padding: 0.5rem 0.75rem;
+  }
+
+  .transactionsList th {
+    padding: 0.4rem;
+    font-size: 12px;
+  }
+}
+
+/* For Medium Devices (e.g., Tablets) */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .transactionsList {
+    padding: 0.6rem 1rem;
+  }
+
+  .transactionsList th {
+    padding: 0.5rem;
+    font-size: 14px;
   }
 }

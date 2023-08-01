@@ -79,7 +79,7 @@ const Login = () => {
           ref={passwordRef}
         />
         {showError && (
-          <p className="error">*User Credentials Incorrect</p>
+          <p className="error">*You have Entered Incorrect Email or Password</p>
         )}
 
         {/* BUTTON: Login */}

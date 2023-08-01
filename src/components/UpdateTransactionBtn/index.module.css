@@ -52,3 +52,57 @@
   .editBtn {
     color: #2d60ff;
   }
+
+  /* For Small Devices (e.g., Mobile Phones) */
+@media screen and (max-width: 576px) {
+  .modalContent {
+    min-width: 280px;
+  }
+
+  .modalContent li {
+    font-size: 14px;
+    margin: 0.8rem 0;
+  }
+
+  .modalContent input,
+  .modalContent select {
+    padding: 0.4rem 0.8rem;
+    font-size: 14px;
+  }
+
+  .button {
+    font-size: 14px;
+    padding: 0.4rem 0.8rem;
+  }
+
+  .icon {
+    font-size: 1rem;
+  }
+}
+
+/* For Medium Devices (e.g., Tablets) */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .modalContent {
+    min-width: 320px;
+  }
+
+  .modalContent li {
+    font-size: 15px;
+    margin: 0.9rem 0;
+  }
+
+  .modalContent input,
+  .modalContent select {
+    padding: 0.5rem 1rem;
+    font-size: 15px;
+  }
+
+  .button {
+    font-size: 15px;
+    padding: 0.5rem 1rem;
+  }
+
+  .icon {
+    font-size: 1.1rem;
+  }
+}

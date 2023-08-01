@@ -4,3 +4,19 @@
   border-radius: 25px;
   box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.1);
 }
+
+/* For Small Devices (e.g., Mobile Phones) */
+@media screen and (max-width: 576px) {
+  .lastTransactionsList {
+    padding: 0.5rem;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+}
+
+/* For Medium Devices (e.g., Tablets) */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .lastTransactionsList {
+    padding: 0.75rem 1rem;
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.1);
+  }
+}

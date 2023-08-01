@@ -112,7 +112,7 @@ const Transactions = () => {
       <div className={styles.transactions}>
         <div className={styles.header}>
           <div>
-            <h3>Transactions</h3>
+            <h3 className="trans-head">Transactions</h3>
             {!isAdmin && <AddTransactionBtn reload={fetchData} /> }
             
           </div>
