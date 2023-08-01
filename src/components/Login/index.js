@@ -37,9 +37,13 @@ const Login = () => {
       setShowError(true);
     } else {
       const userId = data[0]["id"];
-      Cookies.set("user_id", userId);
+      Cookies.set("user_id", userId,{
+        expires: 30,
+        path: "/",
+      });
       setShowError(false);
       navigate("/", { replace: true });
+      window.location.reload()
     }
   };
   
