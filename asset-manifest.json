@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/MoneyMatters/static/css/main.ca209746.css",
-    "main.js": "/MoneyMatters/static/js/main.f8fdb0fd.js",
+    "main.css": "/MoneyMatters/static/css/main.60b10ebd.css",
+    "main.js": "/MoneyMatters/static/js/main.353e3c28.js",
     "static/js/787.4bd001f6.chunk.js": "/MoneyMatters/static/js/787.4bd001f6.chunk.js",
     "index.html": "/MoneyMatters/index.html",
-    "main.ca209746.css.map": "/MoneyMatters/static/css/main.ca209746.css.map",
-    "main.f8fdb0fd.js.map": "/MoneyMatters/static/js/main.f8fdb0fd.js.map",
+    "main.60b10ebd.css.map": "/MoneyMatters/static/css/main.60b10ebd.css.map",
+    "main.353e3c28.js.map": "/MoneyMatters/static/js/main.353e3c28.js.map",
     "787.4bd001f6.chunk.js.map": "/MoneyMatters/static/js/787.4bd001f6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca209746.css",
-    "static/js/main.f8fdb0fd.js"
+    "static/css/main.60b10ebd.css",
+    "static/js/main.353e3c28.js"
   ]
 }
