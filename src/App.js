@@ -1,4 +1,4 @@
-import { Navigate, Route, Routes } from "react-router-dom";
+import { Switch,Navigate, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Home from "./components/Home/Home.js";
 import Login from "./components/Login";
@@ -8,7 +8,7 @@ import Cookies from "js-cookie";
 
 function App() {
   return (
-    <Routes>
+    <Switch>
       <Route path="/login" element={<Login />} />
       <Route
         path="/"
@@ -26,7 +26,7 @@ function App() {
           Cookies.get("user_id") ? <Profile /> : <Navigate to="/login" />
         }
       />
-    </Routes>
+    </Switch>
   );
 }
 
